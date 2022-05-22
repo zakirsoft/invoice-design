@@ -1,0 +1,115 @@
+
+/* Font Include */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.main-body {
+    font-family: 'Roboto', sans-serif;
+    background: #E6E6E6;
+}
+
+.invoice {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.invoice[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+    overflow: hidden;
+}
+
+.bb {
+    border-bottom: 3px solid var(--darkWhite);
+}
+
+/* Top Section */
+.top-content {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #D2D5D9;
+}
+.top-left p{
+    color: #21232A;
+    margin: 0px;
+    font-size: 14px;
+}
+.logo{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #F0F5FE;
+}
+.logo img {
+    max-width: 160px;
+}
+
+
+
+/* User Store Section */
+.bill-to-content {
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.bill-to-content-left p {
+    color: #21232A;
+    margin: 0;
+    font-size: 14px;
+}
+
+.bill-to-content h2 {
+    font-family: 'Roboto', sans-serif;
+}
+.bill-to-content-right{
+    margin-top: 20px;
+}
+.bill-to-content-right td, .balance-info-right td{
+    padding: 8px 18px;
+}
+
+.bill-to-content-right h4, .balance-info-right h4{
+    margin: 0px;
+}
+.table-row-bg{
+    color: #000;
+    background: #D2D5D9;
+}
+/* Product Section */
+.table{
+    width: 100%;
+    overflow: scroll;
+}
+
+.product-area .table thead tr{
+    color: #000;
+    font-weight: 700;
+    background: #D2D5D9;
+} 
+.item-col{
+    max-width: 120px;
+}
+.description-col{
+    max-width: 200px;
+}
+.table tr td{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin: 0px;
+    border-bottom: 1px solid #D2D3D9;
+}
+
+/* Balance Info Section */
+.balance-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
